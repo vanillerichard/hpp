@@ -1,0 +1,25 @@
+!SESSION 2015-04-22 14:38:50.420 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_20-ea
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.core.net 1 0 2015-04-22 14:38:54.812
+!MESSAGE System property http.proxyHost is not set but should be cache.univ-st-etienne.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-04-22 14:38:54.818
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-04-22 14:38:54.818
+!MESSAGE System property https.proxyHost is not set but should be cache.univ-st-etienne.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-04-22 14:38:54.819
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2015-04-22 14:38:54.822
+!MESSAGE System property https.proxyHost is not set but should be cache.univ-st-etienne.fr.
+
+!ENTRY org.eclipse.core.net 1 0 2015-04-22 14:38:54.822
+!MESSAGE System property https.proxyPort is not set but should be 3128.
