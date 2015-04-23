@@ -69,14 +69,9 @@ public abstract class AbstractQueryProcessor implements Runnable {
 		this.measure = measure;
 		// Initialize queue
 		this.eventqueue = new LinkedBlockingQueue<>();
-
+		this.resultqueue = new LinkedBlockingQueue<>();
 		// Initialize writer
-		try {
-			outputWriter = new BufferedWriter(new FileWriter(new File(
-					"result/query" + id + ".txt")));
-		} catch (IOException e) {
-			logger.error("Cannot open output file for " + id, e);
-			System.exit(-1);
+		this.thread = new Thread(WriteThread;)
 		}
 	}
 
